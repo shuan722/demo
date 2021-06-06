@@ -9,19 +9,19 @@ app = xw.App(visible=True, add_book=False)
 
 # ===============  第一部分,创建并写入数据 =====================
 # 创建一个test2.xlsx表，并写入数据
-# wb = app.books.add()
-# ws = wb.sheets.active
-# arr = []
-# for col in range(1, 4):
-#     arr_temp = []
-#     for row in range(1, 4):
-#         arr_temp.append(col * 10 + row)
-#     arr.append(arr_temp)
-# ws.range('A1:B3').value = arr
-# wb.save('test2.xlsx')
-# wb.close()
-# app.quit()
-# exit()
+wb = app.books.add()
+ws = wb.sheets.active
+arr = []
+for col in range(1, 4):
+    arr_temp = []
+    for row in range(1, 4):
+        arr_temp.append(col * 10 + row)
+    arr.append(arr_temp)
+ws.range('A1:B3').value = arr
+wb.save('test2.xlsx')
+wb.close()
+app.quit()
+exit()
 
 # ============== 第二部分，插入、删除行和列 ========================
 
