@@ -1,3 +1,6 @@
+github :DNS工具查询 https://tool.chinaz.com/dns/
+
+
 pycharm 使用git步骤记录
 1. 初始化文件 git init
 2. 配置remote  git remote add origin https://xxxxx 关联远程仓库并配置
